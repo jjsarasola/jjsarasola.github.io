@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Juan José Sarasola</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.ico"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/css/A.bootstrap.min.css+owl.carousel.min.css+slicknav.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/A.style.css.pagespeed.cf.IzxbW90k31.css"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+  </head>
+  <body>
+
+    <div id="app">
+
+      <div id="preloader-active">
+        <div class="preloader d-flex align-items-center justify-content-center">
+          <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+              <img
+                src="data:image/webp;base64,UklGRloBAABXRUJQVlA4TE0BAAAvI8AIEP+gIJKV6uif0g78Qa1hIG2b7P4tnypoI0mZO//yTsczI4K2beMi+M5gDH7+qMZgAfz+XtvarmMt17a2UKypG8ZQulSFTHMOw8kFH9T/d8QP0wfq+wFDNCghC4bR3w8g1rbbtsF3U5cAuBuMtP+cjvGpDSL6PwGStttfWVXX8ryZVL4WTRev4UXp4tRTqz5yVrRysYStWn21X0V3LD+euuv7H9ed/atQ40QUEblqfumOaAh1kUhNDQAuxDR7AnBsZ6XtnmqAs9a8f1IjgKXGK1J6BDpVXWYi1lwHHHVs0BCr5pcDcARwJOgGAJpR2Y2YAMxKb0HoCWi5eDE9cORed2Y5AAN1N0Yb4EKZBDPh2DIh4oyOSruIBMOHiIjv5V/y3uct/8ceIT9tq7fZL7GoFSbpd523sB5cuFT0yIVLZbu/YlPd4nU3SQMA"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <header>
+        <div class="header-area header-transparent">
+          <div class="main-header header-sticky">
+            <div class="container-fluid">
+              <div
+                class="
+                  menu-wrapper
+                  d-flex
+                  align-items-center
+                  justify-content-between
+                "
+              >
+                <div class="main-menu f-right d-none d-lg-block">
+                  <nav>
+                    <ul id="navigation">
+                      <li><a href="#mainSection">Home</a></li>
+                      <li><a href="#misProyectos">{{navbar.proyectos}}</a></li>
+                      <li><a target="_blank" href="">{{navbar.CV}}</a></li>
+                    </ul>
+                  </nav>
+                </div>
+  
+                <div v-if="english == false" class="header-info-right d-none d-lg-block">
+                  <button class="border-btn" v-on:click="english = !english; toEnglish();">English</button>
+                </div>
+
+                <div v-if="english" class="header-info-right d-none d-lg-block">
+                  <button class="border-btn" v-on:click="english = !english; toSpanish();">Español</button>
+                </div>
+  
+                <div class="col-12">
+                  <div class="mobile_menu d-block d-lg-none"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main id="mainSection">
+        <div class="slider-area position-relative">
+          <div class="single-slider slider-height d-flex align-items-center">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-xl-4 col-lg-5 col-md-5 col-sm-4">
+                  <div class="employee">
+                    <img src="assets/img/hero/JJS.webp" alt="" />
+                  </div>
+                </div>
+                <div class="col-xl-8 col-lg-7 col-md-7 col-sm-8">
+                  <div class="hero__caption">
+                    <h1>Juan José Sarasola</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="about-info">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-5 col-md-3 col-sm-3 d-flex">
+                  <div class="about-info-single">
+                    <div class="about-info-single mr-5">
+                      <a target="_blank" href="https://www.linkedin.com/in/juan-jos%C3%A9-sarasola/"><i class="fab fa-linkedin fa-3x"></i></a>
+                    </div>
+                  </div>
+                  <div class="about-info-single">
+                    <div class="about-info-single mr-5">
+                      <a target="_blank" href="https://github.com/jjsarasola/"><i class="fab fa-github fa-3x"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7 col-md-9 col-sm-9">
+                  <div
+                    class="
+                      about-info-wrapper
+                      d-flex
+                      justify-content-between
+                      flex-wrap
+                    "
+                  >
+                    <div
+                      class="
+                        about-info-single
+                        text-right
+                        d-flex
+                        align-items-center
+                      "
+                    >
+                      <div class="about-info-single mr-5">
+                        <p>Email</p>
+                        <span>jjsarasola@gmail.com</span>
+                      </div>
+                      <div class="icon">
+                        <img
+                          src="assets/img/gallery/xemail-icon.png.pagespeed.ic.yAqvkS6N4u.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <section class="about-area section-padding40">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-xl-12 col-lg-12 col-md-12">
+                <div class="about-caption mb-50">
+                  <div class="section-tittle mb-35">
+                    <h2>{{titulos.sobreMi}}</h2>
+                  </div>
+                  <p>
+                    {{textos.sobreMiTexto}}
+                  </p>
+                  <p>
+                    {{textos.sobreMiTexto2}}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section class="our-services section-padding40">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-8 col-lg-8">
+                <div class="section-tittle mb-80">
+                  <h2>{{titulos.tecnologias}}</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="single-services text-center">
+                  <div class="services-ion">
+                    <img style="width: 15rem; height: 15rem;" src="assets/img/icon/javascript.png" alt="" />
+                  </div>
+                  <div class="services-cap">
+                    <h3>> Javascript</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="single-services text-center">
+                  <div class="services-ion">
+                    <img style="width: 15rem; height: 15rem;" src="assets/img/icon/vuejs.png" alt="" />
+                  </div>
+                  <div class="services-cap">
+                    <h3>> VueJS</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="single-services text-center">
+                  <div class="services-ion">
+                    <img style="width: 15rem; height: 15rem;" src="assets/img/icon/react.png" alt="" />
+                  </div>
+                  <div class="services-cap">
+                    <h3>> React Native</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="single-services text-center">
+                  <div class="services-ion">
+                    <img style="width: 15rem; height: 15rem;" src="assets/img/icon/firebase.png" alt="" />
+                  </div>
+                  <div class="services-cap">
+                    <h3>> Firebase</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="single-services text-center">
+                  <div class="services-ion">
+                    <img style="width: 15rem; height: 15rem;" src="assets/img/icon/kotlin.png" alt="" />
+                  </div>
+                  <div class="services-cap">
+                    <h3>> Kotlin</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="single-services text-center">
+                  <div class="services-ion">
+                    <img style="width: 15rem; height: 15rem;" src="assets/img/icon/android.png" alt="" />
+                  </div>
+                  <div class="services-cap">
+                    <h3>> Android Studio</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  
+        <section
+          id="misProyectos"
+          class="gallery-area gallery-area2 section-padding40"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="section-tittle mb-60">
+                  <h2>{{titulos.proyectos}}</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <div class="box snake mb-30">
+                  <div
+                    class="gallery-img small-img"
+                    style="background-image: url(assets/img/gallery/ScanAppO.png)"
+                  ></div>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.jjs.scanapphoneywell"
+                        target="_blank"
+                        >ScanApp QR () => {{titulos.googlePlay}}</a
+                      >
+                      <p>{{textos.scanApp}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="box snake mb-30">
+                  <div
+                    class="gallery-img small-img"
+                    style="
+                      background-image: url(assets/img/gallery/RollingDadosO.png);
+                    "
+                  ></div>
+                  <div class="overlay">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.jjs.rollingdados"
+                    ></a>
+                    <div class="overlay-content">
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.jjs.rollingdados"
+                        target="_blank"
+                        >RollingDados () => {{titulos.googlePlay}}</a
+                      >
+                      <p>{{textos.rollingDados}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="box snake mb-30">
+                  <div
+                    class="gallery-img small-img"
+                    style="
+                      background-image: url(assets/img/gallery/Hestia.png);
+                    "
+                  ></div>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="https://hestia-eficiencia-energetica.web.app/" target="_blank">Hestia () => {{titulos.goToWeb}}</a>
+                      <p>{{textos.hestia}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <div class="box snake mb-30">
+                  <div
+                    class="gallery-img small-img"
+                    style="
+                      background-image: url(assets/img/gallery/huella-de-carbono.png);
+                    "
+                  ></div>
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="#" class="img-pop-up">Huella de carbono</a>
+                      <p>{{textos.huellaDeCarbono}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="more-btn text-center mt-40">
+                  <a target="_blank" href="https://github.com/jjsarasola/" class="border-btn2">{{titulos.masProyectos}}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-wrappr">
+          <div class="footer-top">
+            <section class="wantToWork-area">
+              <div class="container">
+                <div class="wants-wrapper w-padding2">
+                  <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-5 col-lg-6 col-md-10">
+                      <div class="wantToWork-caption">
+                        <h2 style="color: #ff8553">JJS</h2>
+                        <div class="footer-social">
+                          <a target="_blank" href="https://www.linkedin.com/in/juan-jos%C3%A9-sarasola/"><i class="fab fa-linkedin"></i></a>
+                          <a target="_blank" href="https://github.com/jjsarasola/"><i class="fab fa-github"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 col-md-10">
+                      <div class="wantToWork-btn">
+                        <a href="#" class="btn f-right sm-left mr-5"
+                          >{{navbar.contacto}}</a
+                        >
+                        <a
+                          href="#"
+                          class="border-btn white-btn f-right sm-left mr-5"
+                          >{{navbar.CV}}</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+  
+          <div class="footer-bottom-area">
+            <div class="container">
+              <div class="footer-border">
+                <div class="row align-items-center">
+                  <div class="col-xl-6 col-lg-5">
+                    <div class="footer-copy-right">
+                      <p>
+                        Copyright &copy;
+                        {{getYear}}
+                        {{textos.copyright}} | Juan José Sarasola
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-7">
+                    <div class="header-area header-area2">
+                      <div class="main-header main-header2">
+                        <div class="menu-wrapper">
+                          <div class="main-menu">
+                            <nav>
+                              <ul>
+                                <li><a href="#mainSection">Home</a></li>
+                                <li><a href="#misProyectos">{{navbar.proyectos}}</a></li>
+                                <li><a href="#mainSection">{{navbar.contacto}}</a></li>
+                              </ul>
+                            </nav>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+      <div id="back-top">
+        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+      </div>
+
+    </div>
+
+
+    <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/popper.min.js+bootstrap.min.js.pagespeed.jc.2cNIGpkQNt.js"></script>
+    
+    <script src="assets/js/index.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js+slick.min.js.pagespeed.jc.yB90iVHRRx.js"></script>
+    <script>
+      eval(mod_pagespeed_ayYoDTF2HC);
+    </script>
+    <script>
+      eval(mod_pagespeed_do93p0CdfB);
+    </script>
+    <script src="assets/js/jquery.slicknav.min.js+jquery.nice-select.min.js+wow.min.js"></script>
+    <script>
+      eval(mod_pagespeed_pYmYlr1V15);
+    </script>
+    <script>
+      eval(mod_pagespeed_uF_Hs0R1yK);
+    </script>
+
+    <script>
+      eval(mod_pagespeed_t3UUIvS1E_);
+    </script>
+    <script>
+      eval(mod_pagespeed_lM_BWDydAX);
+    </script>
+    <script>
+      eval(mod_pagespeed_s3tj7VzYa3);
+    </script>
+    <script>
+      eval(mod_pagespeed_LEw5PMV_A6);
+    </script>
+
+    <script>
+      eval(mod_pagespeed_pP4tZQ6a7n);
+    </script>
+    <script>
+      eval(mod_pagespeed_WB340Cn6IE);
+    </script>
+    <script>
+      eval(mod_pagespeed_Fe4p2XJz0Z);
+    </script>
+    <script>
+      eval(mod_pagespeed_EjbAk$9k12);
+    </script>
+
+    <script>
+      eval(mod_pagespeed_Uth7txuY3R);
+    </script>
+    <script src="assets/js/jquery.form.js"></script>
+    <script>
+      eval(mod_pagespeed_aNeETzPeVv);
+    </script>
+    <script>
+      eval(mod_pagespeed_vGw_gt1VZ3);
+    </script>
+    <script>
+      eval(mod_pagespeed_7vys0cqgn5);
+    </script>
+    <script>
+      eval(mod_pagespeed_MVQs$cAFal);
+    </script>
+
+    <script>
+      eval(mod_pagespeed_wW8jRF4g__);
+    </script>
+    <script>
+      eval(mod_pagespeed_9MjzCwZCcN);
+    </script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-23581568-13");
+    </script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"rayId":"6972c438ad1408f1","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.9.0","si":100}'
+    ></script>
+  </body>
+</html>
