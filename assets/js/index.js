@@ -16,7 +16,6 @@ var app = new Vue({
             goToWeb: "Ir al sitio"
         },
         textos: {
-            copyright: "Todos los derechos reservados",
             sobreMiTexto: "Soy estudiante de la Tecnicatura Universitaria en Programación de la UTN.",
             sobreMiTexto2: "Busco continuar mi carrera profesional en los campos del desarrollo web y las aplicaciones móviles.",
             scanApp: "ScanApp es una aplicación para escaneo de códigos de barras y QR, desarrollada con React Native y librerías nativas de Java, para dispositivos PDA Honeywell. Permite listar códigos y exportar listas a una hoja de cálculo.",
@@ -30,7 +29,6 @@ var app = new Vue({
             this.navbar.proyectos = "Projects"
             this.navbar.CV = "Download my CV"
             this.navbar.contacto = "Contact me"
-            this.textos.copyright = "All rights reserved"
             this.titulos.sobreMi = "About me"
             this.titulos.tecnologias = "Technologies"
             this.titulos.proyectos = "My projects"
@@ -48,7 +46,6 @@ var app = new Vue({
             this.navbar.proyectos = "Proyectos"
             this.navbar.CV = "Descargar CV"
             this.navbar.contacto = "Contactame"
-            this.textos.copyright = "Todos los derechos reservados"
             this.titulos.sobreMi = "Sobre mí"
             this.titulos.tecnologias = "Tecnologías"
             this.titulos.proyectos = "Mis proyectos"
