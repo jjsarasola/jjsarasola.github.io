@@ -6,7 +6,6 @@
     <title>Juan José Sarasola</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="manifest" href="site.webmanifest" />
     <link
       rel="shortcut icon"
       type="image/x-icon"
@@ -61,21 +60,26 @@
                     <ul id="navigation">
                       <li><a href="#mainSection">Home</a></li>
                       <li><a href="#misProyectos">{{navbar.proyectos}}</a></li>
-                      <li><a target="_blank" href="">{{navbar.CV}}</a></li>
+                      <li><a target="_blank" :href="url_CV">{{navbar.CV}}</a></li>
                     </ul>
                   </nav>
                 </div>
-  
                 <div v-if="english == false" class="header-info-right d-none d-lg-block">
                   <button class="border-btn" v-on:click="english = !english; toEnglish();">English</button>
                 </div>
-
                 <div v-if="english" class="header-info-right d-none d-lg-block">
                   <button class="border-btn" v-on:click="english = !english; toSpanish();">Español</button>
                 </div>
   
                 <div class="col-12">
-                  <div class="mobile_menu d-block d-lg-none"></div>
+                  <div class="mobile_menu d-block d-lg-none">
+                    <div v-if="english == false" class="header-info-right mt-10 d-lg-none d-flex justify-content-center">
+                      <button class="border-btn navLang-btn" style="background-color: dimgray;" v-on:click="english = !english; toEnglish();">English</button>
+                    </div>
+                    <div v-if="english" class="header-info-right mt-10 d-lg-none d-flex justify-content-center">
+                      <button class="border-btn navLang-btn" style="background-color: dimgray;" v-on:click="english = !english; toSpanish();">Español</button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -364,7 +368,8 @@
                           >{{navbar.contacto}}</a
                         >
                         <a
-                          href="#"
+                          target="_blank"
+                          :href="url_CV"
                           class="border-btn white-btn f-right sm-left mr-5"
                           >{{navbar.CV}}</a
                         >

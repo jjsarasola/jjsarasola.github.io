@@ -67,6 +67,13 @@ var app = new Vue({
         getYear: function() {
             let year = new Date().getFullYear()
             return year;
+        },
+        url_CV: function() {
+            if (this.english) {
+                return "assets/CV/CV _Juan_Jose_Sarasola_(EN).pdf"
+            } else {
+                return "assets/CV/CV _Juan_Jose_Sarasola_(ES).pdf"
+            }
         }
     }
 });
