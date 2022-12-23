@@ -16,7 +16,7 @@ var app = new Vue({
             goToWeb: "Ir al sitio"
         },
         textos: {
-            sobreMiTexto: "Soy estudiante de la Tecnicatura Universitaria en Programación de la UTN.",
+            sobreMiTexto: "Mi nombre es Juan José y soy un entusiasta de la tecnología y la programación. Desde que era chico siempre me fascinó saber cómo funcionan las cosas y cómo se pueden crear soluciones a problemas. Además de mi pasión por la tecnología, también soy abogado. Me encanta poder combinar mi conocimiento legal con mi interés por la tecnología. Gracias por visitar mi sitio!",
             sobreMiTexto2: "Busco continuar mi carrera profesional en los campos del desarrollo web y las aplicaciones móviles.",
             scanApp: "ScanApp es una aplicación para escaneo de códigos de barras y QR, desarrollada con React Native y librerías nativas de Java, para dispositivos PDA Honeywell. Permite listar códigos y exportar listas a una hoja de cálculo.",
             rollingDados: "RollingDados es un cubilete de dados virtual, desarrollado con React Native, y pensado para reemplazar los dados físicos al momento de jugar a juegos de mesa.",
