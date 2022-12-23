@@ -16,7 +16,7 @@ var app = new Vue({
             goToWeb: "Ir al sitio"
         },
         textos: {
-            sobreMiTexto: "Mi nombre es Juan José y soy un entusiasta de la tecnología y la programación. Desde que era chico siempre me fascinó saber cómo funcionan las cosas y cómo se pueden crear soluciones a problemas. Además de mi pasión por la tecnología, también soy abogado. Me encanta poder combinar mi conocimiento legal con mi interés por la tecnología. Gracias por visitar mi sitio!",
+            sobreMiTexto: "Mi nombre es Juan José y soy un entusiasta de la tecnología y la programación. Desde que era chico siempre me fascinó saber cómo funcionan las cosas y cómo se pueden crear soluciones de problemas. Además de mi pasión por la tecnología, también soy abogado. Me encanta poder combinar mi conocimiento legal con mi interés por la tecnología. Gracias por visitar mi sitio!",
             sobreMiTexto2: "Busco continuar mi carrera profesional en los campos del desarrollo web y las aplicaciones móviles.",
             scanApp: "ScanApp es una aplicación para escaneo de códigos de barras y QR, desarrollada con React Native y librerías nativas de Java, para dispositivos PDA Honeywell. Permite listar códigos y exportar listas a una hoja de cálculo.",
             rollingDados: "RollingDados es un cubilete de dados virtual, desarrollado con React Native, y pensado para reemplazar los dados físicos al momento de jugar a juegos de mesa.",
@@ -35,7 +35,7 @@ var app = new Vue({
             this.titulos.masProyectos = "More projects"
             this.titulos.googlePlay = "View on Google Play"
             this.titulos.goToWeb = "Go to website",
-            this.textos.sobreMiTexto = "My name is Juan José and I am a technology and programming enthusiast. Since I was a kid I have always been fascinated by knowing how things work and how to create solutions to problems. In addition to my passion for technology, I am also a lawyer. I love being able to combine my legal knowledge with my interest in technology. Thanks for visiting my site!"
+            this.textos.sobreMiTexto = "My name is Juan José and I am a technology and programming enthusiast. Since I was a kid I have always been fascinated by knowing how things work and how to create solutions for problems. In addition to my passion for technology, I am also a lawyer. I love being able to combine my legal knowledge with my interest in technology. Thanks for visiting my site!"
             this.textos.sobreMiTexto2 = "My goal is to improve my developer skills for web and mobile apps.",
             this.textos.scanApp = "ScanApp is an application for barcode and QR scanning developed with React Native and native Java libraries for Honeywell PDA devices. Allows you to list codes and export them to a spreadsheet.",
             this.textos.rollingDados = "RollingDados is a virtual dice cup developed with React Native designed to replace physical dice when playing a board games.",
