@@ -35,11 +35,11 @@ var app = new Vue({
             this.titulos.masProyectos = "More projects"
             this.titulos.googlePlay = "View on Google Play"
             this.titulos.goToWeb = "Go to website",
-            this.textos.sobreMiTexto = "I'm a programming student at Universidad Tecnologica Nacional (UTN) in Buenos Aires, Argentina."
+            this.textos.sobreMiTexto = "My name is Juan José and I am a technology and programming enthusiast. Since I was a kid I have always been fascinated by knowing how things work and how to create solutions to problems. In addition to my passion for technology, I am also a lawyer. I love being able to combine my legal knowledge with my interest in technology. Thanks for visiting my site!"
             this.textos.sobreMiTexto2 = "My goal is to improve my developer skills for web and mobile apps.",
             this.textos.scanApp = "ScanApp is an application for barcode and QR scanning developed with React Native and native Java libraries for Honeywell PDA devices. Allows you to list codes and export them to a spreadsheet.",
             this.textos.rollingDados = "RollingDados is a virtual dice cup developed with React Native designed to replace physical dice when playing a board games.",
-            this.textos.hestia = "Hestia is a web application developed with VueJS and Firebase to perform energy audits in homes. It is currently used by Universidad Nacional de San Martín and the Pro Vivienda Social foundation."
+            this.textos.hestia = "Hestia is a web application developed with VueJS and Firebase to perform energy audits in homes. It is currently used by Universidad Nacional de San Martín, the Pro Vivienda Social foundation and the Ministry of the Environment and Sustainable Development of Argentina."
             this.textos.huellaDeCarbono = "Application in development..."
         },
         toSpanish: function () {
@@ -52,11 +52,11 @@ var app = new Vue({
             this.titulos.masProyectos = "Más proyectos"
             this.titulos.googlePlay = "Ver en Google Play"
             this.titulos.goToWeb = "Ir al sitio",
-            this.textos.sobreMiTexto = "Soy estudiante de la Tecnicatura Universitaria en Programación de la UTN.",
+            this.textos.sobreMiTexto = "Mi nombre es Juan José y soy un entusiasta de la tecnología y la programación. Desde que era chico siempre me fascinó saber cómo funcionan las cosas y cómo se pueden crear soluciones a problemas. Además de mi pasión por la tecnología, también soy abogado. Me encanta poder combinar mi conocimiento legal con mi interés por la tecnología. Gracias por visitar mi sitio!",
             this.textos.sobreMiTexto2 = "Busco continuar mi carrera profesional en los campos del desarrollo web y las aplicaciones móviles.",
             this.textos.scanApp = "ScanApp es una aplicación para escaneo de códigos de barras y QR, desarrollada con React Native y librerías nativas de Java, para dispositivos PDA Honeywell. Permite listar códigos y exportar listas a una hoja de cálculo.",
             this.textos.rollingDados = "RollingDados es un cubilete de dados virtual, desarrollado con React Native, y pensado para reemplazar los dados físicos al momento de jugar a juegos de mesa.",
-            this.textos.hestia = "Hestia es una aplicación web realizada con VueJS y Firebase para realizar auditorías de energía en hogares. Actualmente es utilizada por la Universidad Nacional de San Martín y la fundación Pro Vivienda Social"
+            this.textos.hestia = "Hestia es una aplicación web realizada con VueJS y Firebase para realizar auditorías de energía en hogares. Actualmente es utilizada por la Universidad Nacional de San Martín, la fundación Pro Vivienda Social y el Ministerio de Ambiente y Desarrollo Sostenible"
             this.textos.huellaDeCarbono = "Aplicación en desarrollo..."
         }
     },
