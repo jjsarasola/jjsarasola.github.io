@@ -20,7 +20,7 @@ var app = new Vue({
             sobreMiTexto2: "Gracias por visitar mi sitio!",
             scanApp: "ScanApp es una aplicación para escaneo de códigos de barras y QR, desarrollada con React Native y librerías nativas de Java, para dispositivos PDA Honeywell. Permite listar códigos y exportar listas a una hoja de cálculo.",
             rollingDados: "RollingDados es un cubilete de dados virtual, desarrollado con React Native, y pensado para reemplazar los dados físicos al momento de jugar a juegos de mesa.",
-            hestia: "Hestia es una aplicación web realizada con VueJS y Firebase para realizar auditorías de energía en hogares. Actualmente es utilizada por la Universidad Nacional de San Martín y la fundación Pro Vivienda Social",
+            hestia: "Hestia es una aplicación web realizada con VueJS y Firebase para realizar auditorías de energía en hogares. Actualmente es utilizada por la Universidad Nacional de San Martín, la fundación Pro Vivienda Social y el Ministerio de Ambiente y Desarrollo Sostenible.",
             huellaDeCarbono: "Aplicación en desarrollo..."
         }
     },
@@ -52,11 +52,11 @@ var app = new Vue({
             this.titulos.masProyectos = "Más proyectos"
             this.titulos.googlePlay = "Ver en Google Play"
             this.titulos.goToWeb = "Ir al sitio",
-            this.textos.sobreMiTexto = "Mi nombre es Juan José y soy un entusiasta de la tecnología y la programación. Desde que era chico siempre me fascinó saber cómo funcionan las cosas y cómo se pueden crear soluciones a problemas. Además de mi pasión por la tecnología, también soy abogado. Me encanta poder combinar mi conocimiento legal con mi interés por la tecnología. Gracias por visitar mi sitio!",
-            this.textos.sobreMiTexto2 = "Busco continuar mi carrera profesional en los campos del desarrollo web y las aplicaciones móviles.",
+            this.textos.sobreMiTexto = "Mi nombre es Juan José y soy un entusiasta de la tecnología y la programación. Desde chico, siempre me fascinó saber cómo funcionan las cosas, especialmente las computadoras.",
+            this.textos.sobreMiTexto2 = "Gracias por visitar mi sitio!",
             this.textos.scanApp = "ScanApp es una aplicación para escaneo de códigos de barras y QR, desarrollada con React Native y librerías nativas de Java, para dispositivos PDA Honeywell. Permite listar códigos y exportar listas a una hoja de cálculo.",
             this.textos.rollingDados = "RollingDados es un cubilete de dados virtual, desarrollado con React Native, y pensado para reemplazar los dados físicos al momento de jugar a juegos de mesa.",
-            this.textos.hestia = "Hestia es una aplicación web realizada con VueJS y Firebase para realizar auditorías de energía en hogares. Actualmente es utilizada por la Universidad Nacional de San Martín, la fundación Pro Vivienda Social y el Ministerio de Ambiente y Desarrollo Sostenible"
+            this.textos.hestia = "Hestia es una aplicación web realizada con VueJS y Firebase para realizar auditorías de energía en hogares. Actualmente es utilizada por la Universidad Nacional de San Martín, la fundación Pro Vivienda Social y el Ministerio de Ambiente y Desarrollo Sostenible."
             this.textos.huellaDeCarbono = "Aplicación en desarrollo..."
         }
     },
